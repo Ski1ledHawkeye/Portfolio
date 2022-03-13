@@ -715,13 +715,15 @@ nav ul li a{
         padding-right: 30px;
     }
     
-    .hamburger.active .bar:nth-child(2){
+    .hamburger.activek .bar:nth-child(2){
         opacity: 0;
+        background-color: #DDDDDD;
+        width: 50%;
     }
-    .hamburger.active .bar:nth-child(1){
+    .hamburger.activek .bar:nth-child(1){
         transform: translateY(8px) rotate(45deg);
     }
-    .hamburger.active .bar:nth-child(3){
+    .hamburger.activek .bar:nth-child(3){
         transform: translateY(-8px) rotate(-45deg);
     }
     .nav-menu{
@@ -745,8 +747,16 @@ nav ul li a{
         margin: 16px 0;
     }
 
-    .nav-menu:active{
+    .nav-menu:activek{
         left: 0pc;
+    }
+
+    .activek{
+        position: relative;
+        z-index: 50;
+        flex-direction: column;
+        width: 1vw;
+        float: right;
     }
 
     .line{
