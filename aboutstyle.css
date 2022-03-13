@@ -354,28 +354,29 @@ nav ul li a{
 
     .hamburger{
         display: block;
-        padding-right: 30px;
+        padding-right: 40px;
     }
     
-    .hamburger.activek.bar:nth-child(2){
+    .hamburger.activek .bar:nth-child(2){
         opacity: 0;
     }
-    .hamburger.activek.bar:nth-child(1){
+    .hamburger.activek .bar:nth-child(1){
         transform: translateY(8px) rotate(45deg);
     }
-    .hamburger.activek.bar:nth-child(3){
+    .hamburger.activek .bar:nth-child(3){
         transform: translateY(-8px) rotate(-45deg);
     }
     .nav-menu{
         position: fixed;
-        left: -100%;
-        top: 70px;
+        left: 100%;
+        top: 10vw;
         gap: 0;
         flex-direction: column;
         /* background-color: #121110; */
-        width: 100%;
+        width: 800%;
         text-align: right;
-        transition: 0.3s;
+        transition: 1s;
+        left: 18vw;  
     }
 
     .is,
@@ -396,7 +397,7 @@ nav ul li a{
         z-index: 50;
         flex-direction: column;
         width: 1vw;
-        float: right;
+        float: left;
     }
 
     .line{
