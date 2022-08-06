@@ -206,7 +206,7 @@ nav ul li a{
 .purpledocs{
     height: 100vh;
     margin: 0px;
-    background-image: url(material/purpledocs.png);
+    background-image: url(Updates/Projects.png);
     z-index: -100;
     background-repeat: no-repeat;
 }
@@ -264,7 +264,7 @@ nav ul li a{
 .coffee{
     height: 100vh;
     margin: 0px;
-    background-image: url(material/coffeeorder.png);
+    background-image: url(Updates/Evento.png);
     background-repeat: no-repeat;
 }
 .coffee1{
@@ -321,7 +321,7 @@ nav ul li a{
     height: 100vh;
     margin: 0px;
     z-index: 100;
-    background-image: url(material/tokyo.png);
+    background-image: url(Updates/icici.png);
     background-repeat: no-repeat;
 }
 .tokyo1{
@@ -494,7 +494,7 @@ nav ul li a{
     .purpledocs{
         height: 100vh;
         margin: 0px;
-        background-image: url(material/purpledocs2.png);
+        background-image: url(Updates/Projects2.png);
     }
     .purpledocs1{
         padding-left: 0px;
@@ -520,7 +520,7 @@ nav ul li a{
     .coffee{
         height: 100vh;
         margin: 0px;
-        background-image: url(material/coffeeorder2.png);
+        background-image: url(Updates/Evento2.png);
     }
     .coffee1{
         padding-left: 0px;
@@ -547,7 +547,7 @@ nav ul li a{
     .tokyo{
         height: 100vh;
         margin: 0px;
-        background-image: url(material/tokyo2.png);
+        background-image: url(Updates/icici2.png);
     }
     .tokyo1{
         padding-left: 0px;
